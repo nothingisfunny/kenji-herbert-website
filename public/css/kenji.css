@@ -111,6 +111,12 @@ html {
   color: white;
 }
 
+.kenji a { text-decoration: none; color: white; }
+.kenji a:visited { text-decoration: none; color: white; }
+.kenji a:hover { text-decoration: none; color: white;}
+.kenji a:focus { text-decoration: none; color: white; }
+.kenji a:hover, .kenji a:active { text-decoration: none; color: white; }
+
 /*///////// NAVIGATION ////////*/
 .menu{
   display: table-cell;
@@ -195,3 +201,4 @@ div.about {
   padding-left: 60px;
   padding-right: 60px;
 }
+

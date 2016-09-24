@@ -1,4 +1,4 @@
-use Rack::Static, :urls => [""], :root => 'public', :index => 'index.html'
+use Rack::Static, :urls => [""], :root => 'public'
 run lambda {|env|
 	[
 		200,

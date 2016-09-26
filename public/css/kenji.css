@@ -86,12 +86,12 @@ html {
 /*///////// SOCIAL ICONS ////////*/
 
 .social {
-  margin-top: 300px;
+  margin-top: 250px;
 }
 
 .social img{
   max-width: 100%;
-  margin-bottom: 8%;
+  margin-bottom: 10%;
 }
 
 .social img:hover {

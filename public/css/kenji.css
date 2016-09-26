@@ -1,7 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Josefin+Sans:100,600);
 
 html { 
-  background-image: url("/images/bckgrnd.jpg"); 
+  background-image: url("/images/bckgrnd2.jpg"); 
  /* background-image: url("images/bckgrnd.jpg") no-repeat center center fixed;*/ 
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -16,7 +16,7 @@ html {
 .wrapper {
   position:fixed;
   top:0;
-  /*top:15%;*/
+  top:10%;
   margin-left: auto;
   margin-right: auto;
   left: 0;
@@ -32,7 +32,7 @@ html {
   width: 80%;
   margin-left: auto;
   margin-right: auto;
-  height: 20%;
+  height: 15%;
   background-color: rgba(0,0,0,1)
 }
 
@@ -57,10 +57,10 @@ html {
 .lower-block{
   position: fixed;
   width: 80%;
-  top: 20%;
+  top: 25%;
   margin-left: auto;
   margin-right: auto;
-  height: 80%;
+  height: 75%;
 }
 
 .social-section{
@@ -73,11 +73,12 @@ html {
 }
 .main-text-section{
   position:relative;
-  display:inline-block;
+  display:flex;
   float:left;
   height:100%;
   overflow:scroll;
   width:86%;
+  justify-content: center;
   /*background-color:blue;*/
 }
 
@@ -106,11 +107,6 @@ html {
   font-size: 35px;
   color: white;
   }
-
-.who{
-  font-size: 20px;
-  color: white;
-}
 
 .kenji a { text-decoration: none; color: white; }
 .kenji a:visited { text-decoration: none; color: white; }
@@ -184,24 +180,34 @@ li a:hover:before {
 
 /*///////// MAIN SECTION //////////*/
 
-#album-art{
-  position:relative;
-  height:100%;
-  }
-
+/*//////// INDEX /////////*/
 #album-art img{
   position: absolute;
-  left: 50%;
+  width: 50%;
   top: 50%;
+  left: 50%;
   transform: translate(-50%, -50%);
-  max-width: 50%;
+  z-index: -1;
 }
+
+#listen img{
+  position: absolute;
+  width:50%;
+  z-index: 0;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/*//////// ABOUT /////////*/
 
 div.about {
   padding-top: 40px;
   padding-left: 60px;
   padding-right: 60px;
 }
+
+/*//////// MEDIA /////////*/
 
 #player {
   margin: 0;
@@ -210,4 +216,17 @@ div.about {
   left: 50%;
   transform: translate(-50%, -50%);
   width: 600px;
+}
+
+/*//////// EVENTS /////////*/
+
+table {
+  display: table;
+  text-align: center;
+  background-color: black;
+  color: white;
+}
+td {
+  display:table-cell;
+  padding: 20px;
 }

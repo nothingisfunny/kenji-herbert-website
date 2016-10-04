@@ -75,7 +75,15 @@ html {
 .main-text-section{
   position:relative;
   display:flex;
-  float:left;
+  height:100%;
+  overflow:scroll;
+  width:86%;
+  justify-content: center;
+  /*background-color:blue;*/
+}
+
+.main-text-section-media{
+  position:relative;
   height:100%;
   overflow:scroll;
   width:86%;
@@ -213,14 +221,26 @@ div.about {
 /*//////// MEDIA /////////*/
 
 #player {
-  margin: 0;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  display: block;
   width: 600px;
+  margin: auto;
 }
 
+.gallery {
+  display: block;
+  width: 600px;
+  margin: auto;
+}
+.m-p-g__thumbs img{
+  margin-top: 15px;
+  margin-right:5px;
+  min-width: 196.6px;
+  min-height:131.2305px;
+  margin-bottom: 5px;
+}
+.m-p-g__thumbs img:last-child{
+  margin-right:0px;
+}
 /*//////// EVENTS /////////*/
 #upcoming-event{
   position: absolute;

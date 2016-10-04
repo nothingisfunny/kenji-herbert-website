@@ -1,7 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Josefin+Sans:100,600);
 @import url(https://fonts.googleapis.com/css?family=Halant:500);
 html { 
-  background-image: url("/images/bckgrnd2.jpg"); 
+  background-image: url("/images/bckgrnd.jpg"); 
  /* background-image: url("images/bckgrnd.jpg") no-repeat center center fixed;*/ 
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -23,8 +23,8 @@ html {
   right: 0;
   width: 80%;
   min-height:100%;
-  /*background-color: rgba(205,221,240,0.5);*/
-  background-color: rgba(255,255,255,0.5);
+  background-color: rgba(205,221,240,0.5);
+  /*background-color: rgba(255,255,255,0.5);*/
    
 }
 

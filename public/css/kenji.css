@@ -233,7 +233,7 @@ div.about {
 }
 .m-p-g__thumbs img{
   margin-top: 15px;
-  margin-right:5px;
+  margin-right: 5px;
   min-width: 196.6px;
   min-height:131.2305px;
   margin-bottom: 5px;
@@ -329,4 +329,31 @@ div.panel.show {
 
 .panel table tr {
   background-color: #484848;
+}
+
+/*//////// CONTACT /////////*/
+#contact-picture{
+  display:inline-block;
+  float:left;
+  margin-top: 10%;
+}
+#contact-picture img{
+  height: 200px;
+}
+#contact-field{
+  margin-top: 10%;
+  max-height: 200px;
+  line-height:100%;
+  width:60%;
+  position:relative;
+  display:inline-block;
+  float:left;
+  background-color: black;
+  color: white;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 2em;
+}
+#contact-field p{
+  margin-left: 10%;
+  line-height: 1.5;
 }

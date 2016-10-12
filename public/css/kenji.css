@@ -369,7 +369,10 @@ div.panel.show {
       width:100%;
       top:0;
     }
-    .top-block, .name, .nav, .ul{
+    .top-block, .nav, .ul{
+      width:100%;
+    }
+    .nav, .ul{
       width:100%;
     }
     .kenji{

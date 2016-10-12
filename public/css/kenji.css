@@ -362,3 +362,10 @@ div.panel.show {
   margin-left: 10%;
   line-height: 1.5;
 }
+
+/*////////MEDIA QUERY////////*/
+@media only screen and (max-width: 768px) {
+    li{
+      width:100%;
+    }
+}

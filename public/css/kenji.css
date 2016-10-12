@@ -369,4 +369,7 @@ div.panel.show {
       width:100%;
       top:0;
     }
+    .top-block, .name{
+      width:100%;
+    }
 }

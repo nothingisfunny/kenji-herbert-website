@@ -369,7 +369,10 @@ div.panel.show {
       width:100%;
       top:0;
     }
-    .top-block, .name{
+    .top-block, .name, .menu{
       width:100%;
+    }
+    .kenji{
+      font-size:3em;
     }
 }

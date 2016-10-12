@@ -193,7 +193,6 @@ li a:hover:before {
 iframe{
   margin:auto;
 }
-"play": {background-color: red;}
 
 /*//////// ABOUT /////////*/
 
@@ -207,25 +206,28 @@ div.about {
 
 /*//////// MEDIA /////////*/
 
-#player {
+.player {
   display: block;
-  width: 60%;
+  width: 68%;
   margin: auto;
+  top:0;
+  margin-bottom:0;
 }
 
 .gallery {
-  display: inline-block;
-  width: 60%;
+  display: flex;
+  width: 70%;
   margin: auto;
-  margin-left: ;
+  margin-bottom:0;
+  top:0;
 }
 
 .m-p-g__thumbs img{
-  margin-top: 15px;
+  margin-top: 0;
   margin-right: 5px;
   min-width: 196.6px;
   min-height:131.2305px;
-  margin-bottom: 5px;
+  margin-bottom: 0;
 }
 .m-p-g__thumbs img:last-child{
   margin-right:0px;
@@ -233,18 +235,22 @@ div.about {
 
 .header{
   display:block;
-  width:60%;
+  width:68%;
   height: 50px;
   line-height: 50px;
   background-color:black;
   color: white;
   margin:auto;
-  margin-top: 15px;
-  margin-bottom: 15px;
-
+  top:0;
+  margin-bottom: 20px;
+  margin-top:20px;
 }
+
 .header p{
   margin-left: 20px;
+}
+#videos{
+  margin-top:15px;
 }
 /*//////// EVENTS /////////*/
 #upcoming-event{

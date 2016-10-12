@@ -365,7 +365,7 @@ div.panel.show {
 
 /*////////MEDIA QUERY////////*/
 @media only screen and (max-device-width: 568px) {
-    li{
-      width:100%;
+    .wrapper{
+      background-color: green;
     }
 }
